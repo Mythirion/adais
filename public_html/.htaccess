@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^files\.adais\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.files\.adais\.co\.uk$
+RewriteRule ^/?$ "http\:\/\/adais\.co\.uk\/ftp" [R=301,L]
